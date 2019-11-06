@@ -45,7 +45,7 @@ int main()
     //sort_chroms(population_current);
     //默认遗传代数为100
     cout << "*****************************************************************************" << endl;
-    for (i = 1; i <50; i++)
+    for (i = 1; i < number_gene; i++)
     {
         for (j = 0; j < 30; j++)
         {
@@ -89,7 +89,8 @@ int main()
         }
     }
     //找到最优个体
-    cout << "The maximum value is" << max << "when x=" << x << ".";
+    cout << "The maximum value is " << max << " when x=" << x << "." << endl;
+    cout << "The population of the chroms is 30." << endl;
     return 0;
 }
 
